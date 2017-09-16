@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>First React Project</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+    
+    const journal = (
+    <div>
+        <p>For my first exploration, I dove into the world of ReactJS. React is an open-source JavaScript library used for building user interfaces. Learning React is important because I aspire to be a front-end developer after college and React is used to solve some of front-end’s most persistent issues. React is fast, powerful, flexible, scalable and has a developer community that is rapidly growing.
+        </p>
+        
+        <p>
+         I began my React journey by completing a series of interactive tutorials using Codecademy. This allowed me to acquire a foundation of React’s most essential concepts such as: JSX, components, and storing information via props and state. After completing the Codecademy training, I utilized the skills from the it and made my own website. 
+
+        </p>
+        </div>
+    )
+    
+      ReactDOM.render(
+       journal,
+        document.getElementById('root')
+      );
+
+      </script>
+  </body>
+</html>
